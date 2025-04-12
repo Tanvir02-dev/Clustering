@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
 # Import the predict_cluster function
-from predictor import predict_cluster
+from src.predictor import predict_cluster
 
 # Load the pre-trained model
 model_path = os.path.join(os.path.dirname(__file__), 'src', 'model.pkl')
