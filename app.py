@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 from SRC.predictor import predict_cluster
 
 # Load the pre-trained model
-model_path = os.path.join(os.path.dirname(__file__), 'src', 'model.pkl')
+model_path = os.path.join(os.path.dirname(__file__), 'SRC', 'model.pkl')
 if not os.path.exists(model_path):
-    st.error("Model file not found. Please ensure 'model.pkl' exists in the 'src' folder.")
+    st.error("Model file not found. Please ensure 'model.pkl' exists in the 'SRC' folder.")
     st.stop()
 model = joblib.load(model_path)
 
