@@ -37,7 +37,7 @@ This app can be used in a variety of scenarios, such as:
 4. **Set the main file path to `app.py`**
 5. **Click "Deploy"**
 
-Your app will be live at: `https://your-repo-app-name.streamlit.app/`
+Your app will be live at: https://clustering-hvvvlabvl7ni7dzwsax9se.streamlit.app/
 
 ---
 
