@@ -1,11 +1,9 @@
 import pandas as pd
 import os
-import sys
 import streamlit as st
 import joblib
 import seaborn as sns
 import matplotlib.pyplot as plt
-
 
 # Import the predict_cluster function
 from src.predictor import predict_cluster
