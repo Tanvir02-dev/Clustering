@@ -6,8 +6,6 @@ import joblib
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Ensure the 'src' folder is in the Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
 # Import the predict_cluster function
 from src.predictor import predict_cluster
