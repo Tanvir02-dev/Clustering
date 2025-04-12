@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Import the predict_cluster function
-from src.predictor import predict_cluster
+from SRC.predictor import predict_cluster
 
 # Load the pre-trained model
 model_path = os.path.join(os.path.dirname(__file__), 'src', 'model.pkl')
